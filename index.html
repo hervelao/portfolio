@@ -1,13 +1,23 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfolio</title>
-  <link rel="stylesheet" href="https://*********************/bootstrap.min.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/***********/all.css">
-  <link rel="stylesheet" href="style.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Hervé Lao - Portfolio</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -26,10 +36,13 @@
             <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
           </li>
           <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#education">Education</a>
+          </li>
+          <li class="nav-item mx-0 mx-lg-1">
+            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#interests">Interests</a>
           </li>
         </ul>
       </div>
@@ -46,17 +59,20 @@
       <!-- Masthead Heading -->
       <h1 class="masthead-heading text-uppercase mb-0">Hervé Lao</h1>
 
-      <!-- Icon Divider -->
-      <div class="divider-custom divider-light">
-        <div class="divider-custom-line"></div>
-        <div class="divider-custom-icon">
-          <i class="fas fa-star"></i>
-        </div>
-        <div class="divider-custom-line"></div>
-      </div>
-
       <!-- Masthead Subheading -->
       <p class="masthead-subheading font-weight-light mb-0">Finance - Tech</p>
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <br>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/hervelao">
+            <i class="fab fa-fw fa-github-alt"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/herve_lao">
+            <i class="fab fa-fw fa-twitter"></i>
+          </a>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/hervelao">
+            <i class="fab fa-fw fa-linkedin-in"></i>
+          </a>
+        </div>
 
     </div>
   </header>
@@ -158,12 +174,13 @@
     </div>
   </section>
 
-  <!-- About Section -->
-  <section class="page-section bg-primary text-white mb-0" id="about">
+
+  <!-- Skills -->
+  <section class="page-section bg-primary text-white mb-0" id="skills">
     <div class="container">
 
       <!-- About Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
+      <h2 class="page-section-heading text-center text-uppercase text-white">Skills</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom divider-light">
@@ -175,32 +192,43 @@
       </div>
 
       <!-- About Section Content -->
-      <div class="row">
-        <div class="col-lg-4 ml-auto">
-          <p class="lead">Hi ! My name is Hervé, and I graduated from Sorbonne University with a master’s degree in banking and finance. I am currently learning to code at a bootcamp as I am looking for a career advancement and wish to work with newer technology.</p>
-        </div>
-        <div class="col-lg-4 mr-auto">
-          <p class="lead">I'm interested in finance because I like working in this ridesharing space and creating products for users to improve their</p>
-        </div>
-      </div>
-
-      <!-- About Section Button -->
-      <div class="text-center mt-4">
-        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
-          <i class="fas fa-download mr-2"></i>
-          Free Download!
-        </a>
+      <div class="w-100">
+      <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-python fa-3x"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-html5 fa-3x"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt fa-3x"></i>
+          </li>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-react fa-3x"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js fa-3x"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-sass fa-3x"></i>
+          </li>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm fa-3x"></i>
+          </li>
       </div>
 
     </div>
   </section>
 
-  <!-- Contact Section -->
-  <section class="page-section" id="contact">
+  <!-- Education Section -->
+  <section class="page-section portfolio" id="education">
     <div class="container">
 
-      <!-- Contact Section Heading -->
-      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+      <!-- Education Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">education</h2>
 
       <!-- Icon Divider -->
       <div class="divider-custom">
@@ -211,11 +239,122 @@
         <div class="divider-custom-line"></div>
       </div>
 
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">University Panthéon-Sorbonne University</h3>
+            <div class="subheading mb-3">Master's Degree (M2)</div>
+            <div>Banking and Finance</div>
+            <p>Magna Cum Laude</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2017 - March 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Le Wagon</h3>
+            <div class="subheading mb-3">The FullStack and Data Science Program</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2018 - 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">CFA Program</h3>
+            <div class="subheading mb-3">Passed all three levels of the CFA Program</div>
+            <div class="subheading mb-3">Eligible for the CFA Charter upon completion of the required work experience</div>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">2017 - 2019</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  <!-- Interests -->
+  <section class="page-section bg-primary text-white mb-0" id="interests">
+    <div class="container">
+
+      <!-- About Section Heading -->
+      <h2 class="page-section-heading text-center text-uppercase text-white">Interests</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- About Section Content -->
+      <div class="w-100">
+      <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-html5"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-css3-alt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-angular"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-react"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-sass"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-less"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-wordpress"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-gulp"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-grunt"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-npm"></i>
+          </li>
+    </div></div>
+  </section>
+
+  <!-- Contact Section -->
+<!--   <section class="page-section" id="contact">
+    <div class="container"> -->
+
+      <!-- Contact Section Heading -->
+<!--       <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2> -->
+
+      <!-- Icon Divider -->
+<!--       <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div> -->
+
       <!-- Contact Section Form -->
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
+<!--       <div class="row">
+        <div class="col-lg-8 mx-auto"> -->
           <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
-          <form name="sentMessage" id="contactForm" novalidate="novalidate">
+<!--           <form name="sentMessage" id="contactForm" novalidate="novalidate">
             <div class="control-group">
               <div class="form-group floating-label-form-group controls mb-0 pb-2">
                 <label>Name</label>
@@ -254,52 +393,49 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
   <!-- Footer -->
-  <footer class="footer text-center">
+<!--   <footer class="footer text-center">
     <div class="container">
-      <div class="row">
+      <div class="row"> -->
 
         <!-- Footer Location -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
-          <h4 class="text-uppercase mb-4">Contact</h4>
-          <p class="lead mb-0">hervelao@outlook.com
-            <br></p>
-        </div>
+<!--         <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Location</h4>
+          <p class="lead mb-0">2215 John Daniel Drive
+            <br>Clark, MO 65243</p>
+        </div> -->
 
         <!-- Footer Social Icons -->
-        <div class="col-lg-4 mb-5 mb-lg-0">
+<!--         <div class="col-lg-4 mb-5 mb-lg-0">
           <h4 class="text-uppercase mb-4">Around the Web</h4>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-facebook-f"></i>
+          <a class="btn btn-outline-light btn-social mx-1" href="https://github.com/hervelao">
+            <i class="fab fa-fw fa-github-alt"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://twitter.com/herve_lao">
             <i class="fab fa-fw fa-twitter"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
+          <a class="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/hervelao">
             <i class="fab fa-fw fa-linkedin-in"></i>
           </a>
-          <a class="btn btn-outline-light btn-social mx-1" href="#">
-            <i class="fab fa-fw fa-dribbble"></i>
-          </a>
-        </div>
+        </div> -->
 
         <!-- Footer About Text -->
-        <div class="col-lg-4">
+<!--         <div class="col-lg-4">
           <h4 class="text-uppercase mb-4">About Freelancer</h4>
           <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
-            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+            <a href="http://startbootstrap.com">Hervé Lao</a>.</p>
         </div>
 
       </div>
     </div>
-  </footer>
+  </footer> -->
 
   <!-- Copyright Section -->
   <section class="copyright py-4 text-center text-white">
     <div class="container">
-      <small>Copyright &copy; Hervé Lao 2019</small>
+      <small>Copyright &copy; hervelao.com 2019</small>
     </div>
   </section>
 
@@ -546,11 +682,20 @@
     </div>
   </div>
 
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
+  <!-- Contact Form JavaScript -->
+  <script src="js/jqBootstrapValidation.js"></script>
+  <script src="js/contact_me.js"></script>
 
+  <!-- Custom scripts for this template -->
+  <script src="js/freelancer.min.js"></script>
 
-  <script src="https://**********************/bootstrap.bundle.min.js"></script>
-  <script src="script.js"></script>
 </body>
+
 </html>
